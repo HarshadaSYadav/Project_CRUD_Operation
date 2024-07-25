@@ -30,8 +30,8 @@ This web-based application allows users to perform CRUD (Create, Read, Update, D
 
 Clone the repository to your local machine using the following command:
 
-```bash
-git clone https://github.com/HarshadaSYadav/student_form.git
+  ```bash```
+  git clone https://github.com/HarshadaSYadav/student_form.git
 
 ### 2. Import Project
 - Import the project into your Java IDE (e.g., Eclipse, IntelliJ IDEA) after cloning it.
@@ -44,23 +44,25 @@ git clone https://github.com/HarshadaSYadav/student_form.git
 
 ### Database Setup
 Create a database and table to store user records:
+
+```sql```
 CREATE DATABASE student_form;
 
 USE student_form;
 
-CREATE TABLE info (
-  ID INT AUTO_INCREMENT PRIMARY KEY,
-  NAME NVARCHAR(40),
-  ROLL_NO NVARCHAR(30),
-  ADDRESS NVARCHAR(90),
-  GENDER NVARCHAR(20)
+CREATE TABLE REGISTER(
+NAME NVARCHAR(50),
+ADDRESS NVARCHAR(50),
+ROLL_NO NVARCHAR(50),
+GENDER NVARCHAR(20)
 );
 
-### Running the Application
+
+## Running the Application
 - Start Apache Tomcat server.
 - Access the application by navigating to http://localhost:8080/student_form in your web browser.
 
-### License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 - Replace `https://github.com/HarshadaSYadav/student_form.git` with your actual GitHub repository URL. This `README.md` file now includes all the necessary sections for setting up and running your project.
